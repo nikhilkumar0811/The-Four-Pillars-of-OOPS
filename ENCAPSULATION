@@ -1,10 +1,12 @@
-#bundling data and method in the class it helps to hide internal state only expose necessary one.
-class person:
-    def__init__(self,name,age)
-    self.__name=name
-    self.__age=age
+# Bundling data and method in the class, it helps to hide internal state and only expose necessary ones.
+class Person:
+    def __init__(self, name, age):
+        self.__name = name  # Private attribute
+        self.__age = age    # Private attribute
 
     def get_details(self):
-        return Name:{self.__name},Age:{slef.__age}
-person=person("Alice"30)
-print(person.get_details())#output Name:Alice Age:30
+        return f"Name: {self.__name}, Age: {self.__age}"
+
+# Creating an object of the Person class
+person = Person("Alice", 30)
+print(person.get_details())  # Output: Name: Alice, Age: 30
