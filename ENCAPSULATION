@@ -1,0 +1,10 @@
+#bundling data and method in the class it helps to hide internal state only expose necessary one.
+class person:
+    def__init__(self,name,age)
+    self.__name=name
+    self.__age=age
+
+    def get_details(self):
+        return Name:{self.__name},Age:{slef.__age}
+person=person("Alice"30)
+print(person.get_details())#output Name:Alice Age:30
