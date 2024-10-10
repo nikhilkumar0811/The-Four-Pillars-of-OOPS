@@ -1,0 +1,16 @@
+class Bird:
+def fly(self):
+    return"flies in the sky "
+    class pengiun(Bird)
+        def fly(self):
+            return "can't fly but swim"
+
+
+       def let_bird_fly(bird)
+        print(bird.fly())
+        
+       # using the classes
+        sparrow =Bird()
+        pengiun=pengiun()
+let_bird_fly(sparrow)#output:flies in the sky 
+let_bird_fly(pengiun)#output:can't fly but swim
