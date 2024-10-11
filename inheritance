@@ -1,0 +1,21 @@
+#Inheritance allows a class to inherit the attributes and methods of another class, promoting code reuse.
+#children acqiure there property from parent class
+#parent class
+class vehicle
+def__init__(self,brand):
+selfbrand=brand
+
+def drive(self)
+pass
+
+#child class
+class car(vehicle):
+    def__init__(self,brand,model):
+    super()def__init__(brand)
+    self.model=model
+
+
+def drive(self)
+    pass    
+
+
